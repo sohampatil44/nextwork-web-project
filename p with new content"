@@ -1,0 +1,51 @@
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..2fefbd9[m
+[1m--- /dev/null[m
+[1m+++ b/pom.xml[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32m<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"[m
+[32m+[m[32m  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">[m
+[32m+[m[32m  <modelVersion>4.0.0</modelVersion>[m
+[32m+[m[32m  <groupId>com.nextwork.app</groupId>[m
+[32m+[m[32m  <artifactId>nextwork-web-project</artifactId>[m
+[32m+[m[32m  <packaging>war</packaging>[m
+[32m+[m[32m  <version>1.0-SNAPSHOT</version>[m
+[32m+[m[32m  <name>nextwork-web-project Maven Webapp</name>[m
+[32m+[m[32m  <url>http://maven.apache.org</url>[m
+[32m+[m[32m  <dependencies>[m
+[32m+[m[32m    <dependency>[m
+[32m+[m[32m      <groupId>junit</groupId>[m
+[32m+[m[32m      <artifactId>junit</artifactId>[m
+[32m+[m[32m      <version>3.8.1</version>[m
+[32m+[m[32m      <scope>test</scope>[m
+[32m+[m[32m    </dependency>[m
+[32m+[m[32m  </dependencies>[m
+[32m+[m[32m  <build>[m
+[32m+[m[32m    <finalName>nextwork-web-project</finalName>[m
+[32m+[m[32m  </build>[m
+[32m+[m[32m</project>[m
+[1mdiff --git a/src/main/webapp/WEB-INF/web.xml b/src/main/webapp/WEB-INF/web.xml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9f88c1f[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/webapp/WEB-INF/web.xml[m
+[36m@@ -0,0 +1,7 @@[m
+[32m+[m[32m<!DOCTYPE web-app PUBLIC[m
+[32m+[m[32m "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"[m
+[32m+[m[32m "http://java.sun.com/dtd/web-app_2_3.dtd" >[m
+[32m+[m
+[32m+[m[32m<web-app>[m
+[32m+[m[32m  <display-name>Archetype Created Web Application</display-name>[m
+[32m+[m[32m</web-app>[m
+[1mdiff --git a/src/main/webapp/index.jsp b/src/main/webapp/index.jsp[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d774926[m
+[1m--- /dev/null[m
+[1m+++ b/src/main/webapp/index.jsp[m
+[36m@@ -0,0 +1,5 @@[m
+[32m+[m[32m<html>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m<h2>Hello Soham!</h2>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
