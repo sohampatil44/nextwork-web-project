@@ -8,14 +8,30 @@
   <name>nextwork-web-project Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <!-- JUnit 5 dependencies -->
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.8.1</version> <!-- Replace with the latest stable version -->
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.8.1</version> <!-- Replace with the latest stable version -->
+    <scope>test</scope>
+  </dependency>
+</dependencies>
   <build>
-    <finalName>nextwork-web-project</finalName>
-  </build>
+  <plugins>
+    <!-- Surefire plugin for running tests -->
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-surefire-plugin</artifactId>
+      <version>3.0.0-M5</version> <!-- Replace with the latest stable version -->
+    </plugin>
+  </plugins>
+  <finalName>nextwork-web-project</finalName>
+</build>
+
 </project>
